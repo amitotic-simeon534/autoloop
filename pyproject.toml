@@ -1,6 +1,6 @@
 [build-system]
-requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "autoloop"
@@ -35,9 +35,9 @@ all = ["requests>=2.31"]
 autoloop = "autoloop.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/autoloop-ai/autoloop"
-Repository = "https://github.com/autoloop-ai/autoloop"
-Issues = "https://github.com/autoloop-ai/autoloop"
+Homepage = "https://github.com/menonpg/autoloop"
+Repository = "https://github.com/menonpg/autoloop"
+Issues = "https://github.com/menonpg/autoloop/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
