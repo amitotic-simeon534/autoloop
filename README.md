@@ -69,7 +69,7 @@ These decisions aren't specific to ML training. They apply to any system you wan
 ## Install
 
 ```bash
-pip install autoloop
+pip install autoloop-ai
 ```
 
 Requires Python 3.10+. Works with any LLM agent backend (Claude Code, Codex, local models via Ollama).
