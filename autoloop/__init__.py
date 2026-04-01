@@ -4,7 +4,21 @@ autoloop — autoresearch for everything.
 
 from autoloop.core import AutoLoop
 from autoloop.metrics import CompositeMetric
-from autoloop.backends import ClaudeBackend, CodexBackend, OllamaBackend
+from autoloop.backends import (
+    AnthropicBackend,
+    OpenAIBackend,
+    OllamaBackend,
+    ClaudeBackend,
+    CodexBackend,
+)
 
 __version__ = "0.1.0"
-__all__ = ["AutoLoop", "CompositeMetric", "ClaudeBackend", "CodexBackend", "OllamaBackend"]
+__all__ = [
+    "AutoLoop",
+    "CompositeMetric",
+    "AnthropicBackend",
+    "OpenAIBackend",
+    "OllamaBackend",
+    "ClaudeBackend",
+    "CodexBackend",
+]
