@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "autoloop"
+version = "0.1.0"
+description = "autoresearch for everything — autonomous iterative improvement for any system"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Prahlad Menon", email = "prahlad.menon@quant.md"}
+]
+keywords = ["ai", "agents", "optimization", "autoresearch", "prompt-optimization", "autonomous"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "click>=8.0",
+]
+
+[project.optional-dependencies]
+ollama = ["requests>=2.31"]
+all = ["requests>=2.31"]
+
+[project.scripts]
+autoloop = "autoloop.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/autoloop-ai/autoloop"
+Repository = "https://github.com/autoloop-ai/autoloop"
+Issues = "https://github.com/autoloop-ai/autoloop"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["autoloop*"]

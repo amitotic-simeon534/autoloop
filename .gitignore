@@ -1,0 +1,7 @@
+autoloop-results/
+__pycache__/
+*.pyc
+.env
+dist/
+*.egg-info/
+.autoloop_backup
