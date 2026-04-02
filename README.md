@@ -1,5 +1,11 @@
 # autoloop 🔄
 
+[![PyPI version](https://img.shields.io/pypi/v/autoloop-ai.svg)](https://pypi.org/project/autoloop-ai/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/autoloop-ai.svg)](https://pypi.org/project/autoloop-ai/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[![Star History](https://starchart.cc/menonpg/autoloop.svg)](https://starchart.cc/menonpg/autoloop)
+
 **autoresearch for everything.**
 
 Karpathy's [autoresearch](https://github.com/karpathy/autoresearch) showed us the loop: point an AI agent at a problem, give it a metric, let it run 100 experiments overnight. Wake up to a better system.
